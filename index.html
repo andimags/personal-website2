@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>andimags</title>
+
+        <!-- TAILWIND CSS -->
+        <link rel="stylesheet" href="css/tailwind.css" />
+
+        <!-- FONT AWESOME -->
+        <link
+            href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+            defer />
+
+        <link
+            rel="stylesheet"
+            href="https://horizon-tailwind-react-corporate-7s21b54hb-horizon-ui.vercel.app/static/css/main.d7f96858.css" />
+    </head>
+    <body
+        class="bg-gradient-to-r from-white to-slate-100 dark:from-slate-950 dark:to-slate-900 font-sans">
+        <!-- SMALL SCREEN NAVIGATION -->
+        <nav
+            class="-900 p-4 sticky top-0 z-50 md:hidden bg-gradient-to-r from-slate-950 to-slate-900"
+            id="nav-sm">
+            <div class="grid-cols-3 grid">
+                <a
+                    class="text-white uppercase font-bold transition-all text-lg text-white">
+                    ANDIMAGS
+                </a>
+                <a
+                    href=""
+                    class="text-slate-400 uppercase font-bold transition-all text-lg text-center"
+                    id="sm-current-link">
+                </a>
+            </div>
+        </nav>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 -900">
+            <div
+                class="p-12 h-screen md:sticky md:top-0 flex items-center justify-center">
+                <div>
+                    <img
+                        src="images/andimags.png"
+                        class="w-[30%] rounded-full mb-4 mx-auto" />
+                    <p
+                        class="text-slate-700 dark:text-white font-semibold text-5xl text-center">
+                        Hi! I'm Andrea
+                    </p>
+                    <p
+                        class="text-slate-500 dark:text-slate-400 text-2xl mb-4 text-center">
+                        Aspiring Backend Developer
+                    </p>
+
+                    <div class="flex mb-4">
+                        <div class="mx-auto flex justify-center">
+                            <a href="mailto:andimagsumbol@gmail.com">
+                                <button
+                                    class="bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white py-2 px-4 rounded inline-flex items-center rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+                                    <i
+                                        class="fa-solid fa-envelope w-4 h-4 mr-2"></i>
+                                    <span class="text-sm">Email</span>
+                                </button>
+                            </a>
+
+                            <a href="cv.pdf" target="_blank">
+                                <button
+                                    class="bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white py-2 px-4 rounded inline-flex items-center rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+                                    <i class="fa-solid fa-eye w-4 h-4 mr-2"></i>
+                                    <span class="text-sm">View CV</span>
+                                </button>
+                            </a>
+
+                            <button
+                                class="bg-gradient-to-r dark:from-slate-900 dark:to-slate-800 dark:hover:from-slate-800 dark:hover:to-slate-700 text-white py-2 px-4 rounded inline-flex items-center rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 border border-slate-400 dark:border-slate-600"
+                                id="btn-toggle-theme">
+                                <i class="fa-solid fa-moon text-slate-700 dark:text-white" id="icon-toggle-theme"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- LARGE SCREENS NAVIGATION -->
+                    <nav class="hidden md:block" id="nav-md">
+                        <a
+                            href="#section-about"
+                            class="block dark:text-slate-400 text-slate-900 dark:text-white underline underline-offset-2 uppercase font-semibold section-about transition-all">
+                            About
+                        </a>
+                        <a
+                            href="#section-skills"
+                            class="block text-slate-500 dark:text-slate-400 uppercase font-semibold section-skills transition-all">
+                            Skills
+                        </a>
+                        <a
+                            href="#section-certifications"
+                            class="block text-slate-500 dark:text-slate-400 uppercase font-semibold section-certifications transition-all">
+                            Certifications & Awards
+                        </a>
+                        <a
+                            href="#section-projects"
+                            class="block text-slate-500 dark:text-slate-400 uppercase font-semibold section-projects transition-all">
+                            Projects
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-span-2 overflow-auto">
+                <section
+                    class="p-8 flex min-h-screen items-center justify-center w-full"
+                    id="section-about">
+                    <div>
+                        <p
+                            class="text-slate-700 dark:text-white text-3xl mb-8 text-center font-sans text-base/7 font-bold">
+                            About
+                        </p>
+                        <p
+                            class="text-slate-500 dark:text-slate-400 text-base mt-4 indent-8 mb-4 max-w-lg scroll-reveal">
+                            As an aspiring backend developer with a degree in
+                            Information Technology, I bring proficiency in
+                            <span
+                                class="text-slate-700 dark:text-white font-semibold"
+                                >PHP</span
+                            >
+                            (Laravel),
+                            <span
+                                class="text-slate-700 dark:text-white font-semibold"
+                                >HTML & CSS</span
+                            >
+                            (Bootstrap, Tailwind), and
+                            <span
+                                class="text-slate-700 dark:text-white font-semibold"
+                                >JavaScript</span
+                            >
+                            (jQuery, Alpine.js) to the table. My skill set
+                            extends to API integration and adept database
+                            management, demonstrating strong problem-solving and
+                            decision-making abilities. I am passionate about
+                            continuous learning and readily adaptable to
+                            emerging technologies. Let's build something great
+                            together!
+                        </p>
+                    </div>
+                </section>
+
+                <section
+                    class="p-8 flex min-h-screen items-center justify-center"
+                    id="section-skills">
+                    <div>
+                        <p
+                            class="text-slate-700 dark:text-white text-3xl mb-8 text-center font-sans text-base/7 font-bold">
+                            Skills
+                        </p>
+                        <div
+                            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <div
+                                class="w-full max-w-xs mx-auto rounded-md p-4 flex items-center justify-center border border-slate-400 dark:border-slate-600 scroll-reveal bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900">
+                                <i
+                                    class="fa-brands fa-html5 text-2xl w-12 h-12 p-2 rounded-md text-slate-700 dark:text-white"></i>
+                                <div class="ml-4">
+                                    <h2
+                                        class="text-slate-700 dark:text-white text-lg font-bold">
+                                        HTML
+                                    </h2>
+                                    <p class="text-slate-400"></p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="w-full max-w-xs mx-auto rounded-md p-4 flex items-center justify-center border border-slate-400 dark:border-slate-600 scroll-reveal bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900">
+                                <i
+                                    class="fa-brands fa-css3-alt text-2xl w-12 h-12 p-2 rounded-md text-slate-700 dark:text-white"></i>
+                                <div class="ml-4">
+                                    <h2
+                                        class="text-slate-700 dark:text-white text-lg font-bold">
+                                        CSS
+                                    </h2>
+                                    <p
+                                        class="text-slate-500 dark:text-slate-400">
+                                        Bootstrap, Tailwind
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="w-full max-w-xs mx-auto rounded-md p-4 flex items-center justify-center border border-slate-400 dark:border-slate-600 scroll-reveal bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900">
+                                <i
+                                    class="fa-brands fa-js text-2xl w-12 h-12 p-2 rounded-md text-slate-700 dark:text-white"></i>
+                                <div class="ml-4">
+                                    <h2
+                                        class="text-slate-700 dark:text-white text-lg font-bold">
+                                        JavaScript
+                                    </h2>
+                                    <p
+                                        class="text-slate-500 dark:text-slate-400">
+                                        jQuery, Alpine.js
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="w-full max-w-xs mx-auto rounded-md p-4 flex items-center justify-center border border-slate-400 dark:border-slate-600 scroll-reveal bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900">
+                                <i
+                                    class="fa-brands fa-php text-3xl w-14 h-14 p-2 rounded-md text-slate-700 dark:text-white"></i>
+                                <div class="ml-4">
+                                    <h2
+                                        class="text-slate-700 dark:text-white text-lg font-bold">
+                                        PHP
+                                    </h2>
+                                    <p
+                                        class="text-slate-500 dark:text-slate-400">
+                                        Laravel
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="w-full max-w-xs mx-auto rounded-md p-4 flex items-center justify-center border border-slate-400 dark:border-slate-600 scroll-reveal bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900">
+                                <i
+                                    class="fa-solid fa-server text-3xl w-10 h-10 p-2 rounded-md text-slate-700 dark:text-white"></i>
+                                <div class="ml-4">
+                                    <h2
+                                        class="text-slate-700 dark:text-white text-lg font-bold">
+                                        Database
+                                    </h2>
+                                    <p
+                                        class="text-slate-500 dark:text-slate-400">
+                                        MySQL, Database Design
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="w-full max-w-xs mx-auto rounded-md p-4 flex items-center justify-center border border-slate-400 dark:border-slate-600 scroll-reveal bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900">
+                                <i
+                                    class="fa-brands fa-python text-2xl w-12 h-12 p-2 rounded-md text-slate-700 dark:text-white"></i>
+                                <div class="ml-4">
+                                    <h2
+                                        class="text-slate-700 dark:text-white text-lg font-bold">
+                                        Python
+                                    </h2>
+                                    <p
+                                        class="text-slate-500 dark:text-slate-400"></p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="w-full max-w-xs mx-auto rounded-md p-4 flex items-center justify-center border border-slate-400 dark:border-slate-600 scroll-reveal bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900">
+                                <i
+                                    class="fa-brands fa-java text-2xl w-12 h-12 p-2 rounded-md text-slate-700 dark:text-white"></i>
+                                <div class="ml-4">
+                                    <h2
+                                        class="text-slate-700 dark:text-white text-lg font-bold">
+                                        Java
+                                    </h2>
+                                    <p
+                                        class="text-slate-500 dark:text-slate-400"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section
+                    class="p-8 min-h-screen items-center justify-center"
+                    id="section-certifications">
+                    <div>
+                        <p
+                            class="text-slate-700 dark:text-white text-3xl mb-8 text-center font-sans text-base/7 font-bold">
+                            Certifications & Awards
+                        </p>
+                        <div class="w-10/12 md:w-7/12 lg:6/12 mx-auto relative">
+                            <div class="border-l-2 mt-10 border-slate-400">
+                                <div
+                                    class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0 scroll-reveal">
+                                    <!-- Dot Follwing the Left Vertical Line -->
+                                    <div
+                                        class="w-5 h-5 bg-gradient-to-r from-green-600 to-emerald-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+                                    <!-- Line that connecting the box with the vertical line -->
+                                    <div
+                                        class="w-10 h-1 bg-gradient-to-r from-green-300 to-emerald-300 absolute -left-10 z-0"></div>
+                                    <!-- Content that showing in the box -->
+                                    <div class="flex-auto">
+                                        <h1 class="text-lg text-slate-200">Dec 2023</h1>
+                                        <h1 class="text-xl font-semibold">
+                                            Programming Skills Evaluation
+                                        </h1>
+                                        <h3 class="text-slate-200">University of the East</h3>
+                                    </div>
+                                </div>
+                                <div
+                                    class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0 scroll-reveal">
+                                    <!-- Dot Follwing the Left Vertical Line -->
+                                    <div
+                                        class="w-5 h-5 bg-gradient-to-r from-green-600 to-emerald-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+                                    <!-- Line that connecting the box with the vertical line -->
+                                    <div
+                                        class="w-10 h-1 bg-gradient-to-r from-green-300 to-emerald-300 absolute -left-10 z-0"></div>
+                                    <!-- Content that showing in the box -->
+                                    <div class="flex-auto">
+                                        <h1 class="text-lg text-slate-200">Dec 2023</h1>
+                                        <h1 class="text-xl font-semibold">
+                                            IT Specialist in Python
+                                        </h1>
+                                        <h3 class="text-slate-200">Certiport: Pearson VUE</h3>
+                                    </div>
+                                </div>
+                                <div
+                                    class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0 scroll-reveal">
+                                    <!-- Dot Follwing the Left Vertical Line -->
+                                    <div
+                                        class="w-5 h-5 bg-gradient-to-r from-green-600 to-emerald-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+                                    <!-- Line that connecting the box with the vertical line -->
+                                    <div
+                                        class="w-10 h-1 bg-gradient-to-r from-green-300 to-emerald-300 absolute -left-10 z-0"></div>
+                                    <!-- Content that showing in the box -->
+                                    <div class="flex-auto">
+                                        <h1 class="text-lg text-slate-200">Nov 2023</h1>
+                                        <h1 class="text-xl font-semibold">
+                                            IT Specialist in HTML & CSS
+                                        </h1>
+                                        <h3 class="text-slate-200">Certiport: Pearson VUE</h3>
+                                    </div>
+                                </div>
+                                <div
+                                    class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0 scroll-reveal">
+                                    <!-- Dot Follwing the Left Vertical Line -->
+                                    <div
+                                        class="w-5 h-5 bg-gradient-to-r from-green-600 to-emerald-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+                                    <!-- Line that connecting the box with the vertical line -->
+                                    <div
+                                        class="w-10 h-1 bg-gradient-to-r from-green-300 to-emerald-300 absolute -left-10 z-0"></div>
+                                    <!-- Content that showing in the box -->
+                                    <div class="flex-auto">
+                                        <h1 class="text-lg text-slate-200">Nov 2023</h1>
+                                        <h1 class="text-xl font-semibold">
+                                            2<sup>nd</sup> Place - Best in
+                                            Thesis
+                                        </h1>
+                                        <h3 class="text-slate-200">University of the East</h3>
+                                    </div>
+                                </div>
+                                <div
+                                    class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0 scroll-reveal">
+                                    <!-- Dot Follwing the Left Vertical Line -->
+                                    <div
+                                        class="w-5 h-5 bg-gradient-to-r from-green-600 to-emerald-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+                                    <!-- Line that connecting the box with the vertical line -->
+                                    <div
+                                        class="w-10 h-1 bg-gradient-to-r from-green-300 to-emerald-300 absolute -left-10 z-0"></div>
+                                    <!-- Content that showing in the box -->
+                                    <div class="flex-auto">
+                                        <h1 class="text-lg text-slate-200">Mar 2022</h1>
+                                        <h1 class="text-xl font-semibold">
+                                            3<sup>rd</sup> Place - Website
+                                            Designing Competition
+                                        </h1>
+                                        <h3 class="text-slate-200">University of the East CCSS</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section
+                    class="p-8 flex min-h-screen items-center justify-center"
+                    id="section-projects">
+                    <div>
+                        <p
+                            class="text-slate-700 dark:text-white text-3xl mb-8 text-center font-sans text-base/7 font-bold">
+                            Projects
+                        </p>
+                        <div
+                            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <div
+                                class="mx-auto scroll-reveal max-w-xs md:max-w-none">
+                                <div
+                                    class="max-w-lg rounded-lg -800 p-2 shadow duration-150 hover:scale-105 hover:shadow-md border border-slate-400 dark:border-slate-600 h-full bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900">
+                                    <img
+                                        class="w-full rounded-lg object-cover object-center"
+                                        src="images/library-system-login.jpg"
+                                        alt="product" />
+                                    <p
+                                        class="mt-4 pl-4 font-bold text-slate-700 dark:text-white text-lg">
+                                        LCCM Library System
+                                    </p>
+                                    <p
+                                        class="mb-4 ml-4 text-sm text-slate-500 dark:text-slate-400 font-bold">
+                                        Nov 2022 - Nov 2023
+                                    </p>
+                                    <p
+                                        class="mb-4 ml-4 text-sm text-slate-500 dark:text-slate-400">
+                                        A library management system using PHP
+                                        (Laravel), jQuery, and Bootstrap.
+                                    </p>
+                                </div>
+                            </div>
+                            <a
+                                href="https://andimags.github.io/andimags"
+                                target="_blank"
+                                class="mx-auto h-full scroll-reveal">
+                                <div
+                                    class="max-w-lg rounded-lg -800 p-2 shadow duration-150 hover:scale-105 hover:shadow-md border border-slate-400 dark:border-slate-600 h-full bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 max-w-xs md:max-w-none">
+                                    <img
+                                        class="w-full rounded-lg object-cover object-center"
+                                        src="images/personal-website.png"
+                                        alt="product" />
+                                    <p
+                                        class="mt-4 pl-4 font-bold text-slate-700 dark:text-white text-lg">
+                                        Personal Website
+                                    </p>
+                                    <p
+                                        class="mb-4 ml-4 text-sm text-slate-500 dark:text-slate-400 font-bold">
+                                        Apr 2022
+                                    </p>
+                                    <p
+                                        class="mb-4 ml-4 text-sm text-slate-500 dark:text-slate-400">
+                                        Explore my personal website built with
+                                        HTML, CSS, Bootstrap for media queries,
+                                        and jQuery for interactivity.
+                                    </p>
+                                </div>
+                            </a>
+                            <a
+                                href="https://andimags.github.io/shopeast"
+                                target="_blank"
+                                class="mx-auto h-full scroll-reveal">
+                                <div
+                                    class="max-w-lg rounded-lg -800 p-2 shadow duration-150 hover:scale-105 hover:shadow-md border border-slate-400 dark:border-slate-600 h-full bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 max-w-xs md:max-w-none">
+                                    <img
+                                        class="w-full rounded-lg object-cover object-center"
+                                        src="images/shopeast.png"
+                                        alt="product" />
+                                    <p
+                                        class="mt-4 pl-4 font-bold text-slate-700 dark:text-white text-lg">
+                                        ShopEast 2.0
+                                    </p>
+                                    <p
+                                        class="mb-4 ml-4 text-sm text-slate-500 dark:text-slate-400 font-bold">
+                                        Mar 2022
+                                    </p>
+                                    <p
+                                        class="mb-4 ml-4 text-sm text-slate-500 dark:text-slate-400">
+                                        Awarded 3rd Place in USC's ShopEast
+                                        project website design competition,
+                                        supporting UE students in online selling
+                                        to aid their families during quarantine.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- JQUERY -->
+        <script src="/node_modules/jquery/dist/jquery.min.js" defer></script>
+
+        <!-- FONT AWESOME -->
+        <script
+            src="/node_modules/@fortawesome/fontawesome-free/js/all.min.js"
+            defer></script>
+
+        <!-- ALPINE JS -->
+        <script src="/node_modules/alpinejs/dist/cdn.js" defer></script>
+
+        <!-- SCROLL REVEAL -->
+        <script
+            src="/node_modules/scrollreveal/dist/scrollreveal.min.js"
+            defer></script>
+
+        <!-- TYPE IT -->
+        <script src="/node_modules/typeit/dist/index.umd.js" defer></script>
+
+        <script defer>
+            document.addEventListener("DOMContentLoaded", function () {
+                if (
+                    localStorage.theme === "dark" ||
+                    (!("theme" in localStorage) &&
+                        window.matchMedia("(prefers-color-scheme: dark)")
+                            .matches)
+                ) {
+                    document.documentElement.classList.add("dark");
+                    $('#icon-toggle-theme').removeClass("fa-moon");
+                    $('#icon-toggle-theme').addClass("fa-sun");
+                } else {
+                    document.documentElement.classList.remove("dark");
+                    $('#icon-toggle-theme').addClass("fa-moon");
+                    $('#icon-toggle-theme').removeClass("fa-sun");
+                }
+
+                function toggleTheme() {
+                    if (localStorage.theme === "dark") {
+                        localStorage.theme = "light";
+                    } else {
+                        localStorage.theme = "dark";
+                    }
+
+                    location.reload();
+                }
+
+                $("#btn-toggle-theme").click(function () {
+                    toggleTheme();
+                    console.log("test");
+                });
+
+                // LARGE SCREEN NAVIGATION TO MAKE LINKS ACTIVE
+                window.onscroll = () => {
+                    var current = "";
+                    var sections = document.querySelectorAll("section");
+                    var navLinks = document.querySelectorAll("#nav-md a");
+
+                    sections.forEach((section) => {
+                        const sectionTop = section.offsetTop;
+                        if (pageYOffset >= sectionTop) {
+                            current = section.getAttribute("id");
+                        }
+                    });
+
+                    var sectionName = {
+                        "section-about": "ABOUT",
+                        "section-skills": "SKILLS",
+                        "section-certifications": "CERTIFICATIONS & AWARDS",
+                        "section-projects": "PROJECTS",
+                    };
+
+                    if (sectionName[current] === undefined) {
+                        document.querySelector("#sm-current-link").innerHTML =
+                            "";
+                    } else {
+                        document.querySelector("#sm-current-link").innerHTML =
+                            sectionName[current];
+                    }
+
+                    navLinks.forEach((a) => {
+                        a.classList.remove(
+                            "text-slate-900",
+                            "text-slate-500",
+                            "dark:text-white",
+                            "underline",
+                            "underline-offset-2"
+                        );
+                        if (a.classList.contains(current)) {
+                            a.classList.add(
+                                "text-slate-900",
+                                "dark:text-white",
+                                "underline",
+                                "underline-offset-2"
+                            );
+                        }
+                        else{
+                            a.classList.add(
+                                "text-slate-500"
+                            );
+                        }
+                    });
+                };
+
+                // SCROLL REVEAL SCRIPT
+                ScrollReveal({ reset: true }).reveal(".scroll-reveal");
+            });
+        </script>
+    </body>
+</html>
