@@ -1,4 +1,4 @@
-# ShopEast 2.0
+# andimags 2.0
 
 My second personal website developed with HTML, CSS, jQuery, and Tailwind. Featuring both day and dark modes for a personalized browsing experience.
 
