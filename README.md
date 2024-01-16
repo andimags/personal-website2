@@ -4,8 +4,8 @@ My second personal website developed with HTML, CSS, jQuery, and Tailwind. Featu
 
 ## Screenshots
 
-<img src="screenshot_skills.png" width="500">
-<img src="screenshot_awards.png" width="500">
+<img src="screenshot_skills.png" width="300">
+<img src="screenshot_awards.png" width="300">
 
 ## Demo
 
